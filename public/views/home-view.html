@@ -1,0 +1,7 @@
+<body ng-controller="HomeController">
+  <h2>Reach Out and Touch Someone</h2>
+  <label>Enter phone number: <input type="text" ng-model="number" /><button ng-click=home.sendSMS(number)>Send Text</button><button ng-click="home.makeCall(number)">Make Call</button></label>
+
+  <p>number is: {{number}}</p>
+
+</body>
